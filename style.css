@@ -1,0 +1,214 @@
+html{
+   background-color: white;
+}
+
+h2{
+    font-size: x-large;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(90, 159, 229);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    background-color: rgba(154, 175, 253, 0.488);
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(90, 159, 229);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    justify-content: space-between;
+}
+
+header img{
+    height: 100px;
+}
+
+.naam{
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+    color: rgba(27, 76, 253, 0.488);
+}
+
+.naam1{
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+    color: rgba(27, 76, 253, 0.488);
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(90, 159, 229);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+a{
+    height: 18px;
+    border-style: solid;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+
+.locatie{
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+}
+
+.kop1{
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    text-align: left;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 1em;
+    font-size: small;
+}
+
+.kop1 h2{
+    color: rgb(154, 175, 253);
+}
+
+.kop2{
+    display: flex;
+    padding: 10px;
+    background-color: rgba(154, 175, 253, 0.488);
+    text-align: left;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 4px;
+    border-style: solid;
+    border-color: rgba(0, 54, 248, 0.488);
+}
+
+.kop2 h2{
+    color: rgb(43, 71, 196);
+}
+
+.kop2 p{
+    font-size: small;
+}
+
+.afbeelding1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.afbeelding1 img{
+    width: 80%;
+    border: 4px;
+    border-style: solid;
+    border-color: rgba(154, 175, 253, 0.488);
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    list-style-type: none;
+}
+
+footer li{
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    border-color: rgba(154, 175, 253, 0.488);
+}
+
+.kop2  a{
+    background-color:white
+}
+
+.linkjes{
+    display: flex;
+    justify-content: end;
+}
+
+header a{
+    border-style: solid;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    background-color:rgba(154, 175, 253, 0.488);
+    display: flex;
+    justify-content: space-between;
+}
+
+.biebjes{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(154, 175, 253, 0.488);
+    padding-top: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(114, 144, 251);
+}
+
+.slider{
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(114, 144, 251);
+}
+
+.images img{
+    height: 200px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.images input{
+display: none;
+}
+
+.stippen{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.stippen label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+    background-color: white;
+}
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+
+#img4:checked ~ .m4{
+    margin-left: -300%;
+}
